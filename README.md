@@ -12,6 +12,6 @@ TDF used scene example:
     4. Server program when client program get command string, set command string status(client id, start time...)   
     5. Client send command string to local plugins, plugins run it and return result send to server.   
     6. Client continue load local plugins, get server task job,until the command string(with current plugins) status all finish(end time have value)   
-    7. Server program every time check plugins status when get client program result, if __current plugins__ status is finish, send signal to plugins
+    7. Server program every time check plugins status when get client program result, if __current plugins__ status is finish, send signal to plugins  
     8. Server plugins get finish signal, to do something to closure.   
 ###### __Welcome to perfect TDF with me!__
